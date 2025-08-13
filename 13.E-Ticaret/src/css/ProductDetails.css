@@ -1,0 +1,69 @@
+.detail-desc {
+    font-family: 'arial';
+    font-size: 20px;
+
+}
+
+.detail-titel {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.detail-price {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(182, 100, 100);
+}
+
+.detail-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 500px;
+}
+
+.detail-image {
+    margin-right: 40px;
+}
+
+.detail {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.detail-icon {
+    display: flex;
+    align-items: center;
+
+}
+
+.detail-plus-icon {
+    font-size: 40px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+.detail-min-icon {
+    font-size: 40px;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+
+.detail-span {
+    font-size: 35px;
+}
+
+.detail-sepet-button {
+    margin-top: 35px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(185, 76, 76);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
